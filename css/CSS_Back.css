@@ -1,0 +1,43 @@
+body{
+    h2 {
+        text-align: left;
+        font-family: Arial;
+        }
+
+    h3 {
+        text-align: left;
+        font-family: Arial;
+        font-weight: 400;
+        }
+    h1 {
+        text-align: center;
+        font-family: Arial;
+    }
+    a {font-family: Arial;}
+    p {text-indent: 25px;}
+    background-color: rgb(234, 188, 132);
+    table {
+        background-color: rgb(213, 170, 117);
+    }
+}
+.button {
+    background-color: #717537;
+    color: rgb(5, 5, 5);
+    padding: 6px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    transition: padding 0.2s ease-in-out;
+  }
+  .button:hover{
+    padding: 8px 12px;
+    background-color: #61642c;
+
+  }
+@media (max-width: 600px){
+    h3{
+        font-size: 10x
+    }
+
+}
+  
